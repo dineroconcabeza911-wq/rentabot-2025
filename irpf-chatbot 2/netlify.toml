@@ -1,4 +1,0 @@
-[build]
-  base = "irpf-chatbot"
-  publish = "public"
-  functions = "netlify/functions"
