@@ -1,9 +1,0 @@
-[build]
-  base = "irpf-chatbot 2"
-  publish = "public"
-  functions = "netlify/functions"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
